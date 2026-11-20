@@ -1,5 +1,5 @@
 /* Service worker: simpan berkas agar aplikasi tetap jalan tanpa internet. */
-var CACHE = 'website-rt-v1';
+var CACHE = 'website-rt-v2';
 var BERKAS = ['./', './index.html', './tema.css', './tema.js', './style.css', './data.js', './app.js', './manifest.webmanifest', './ikon.svg'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(BERKAS); }).then(function () { return self.skipWaiting(); }));
