@@ -2,6 +2,8 @@
 
 Aplikasi web untuk pengurus RT/RW. Ada halaman publik untuk warga (pengumuman, agenda, kontak pengurus) dan panel pengurus berkunci PIN untuk mengelola data warga, iuran, kas, dan surat pengantar.
 
+> **Penting — batas keamanan:** versi ini adalah aplikasi statis satu-perangkat. PIN hanya menyembunyikan panel di browser, bukan autentikasi atau kontrol akses server. Semua data (termasuk NIK, nomor KK, kontak, iuran, dan kas) tersimpan di browser perangkat tersebut dan tidak tersinkronisasi antarwarga/pengurus. Jangan masukkan data pribadi nyata atau gunakan sebagai sistem administrasi bersama sebelum tersedia backend dengan autentikasi, otorisasi, database terpusat, dan backup terkelola.
+
 Semuanya murni HTML, CSS, dan JavaScript. Tidak perlu server, database, atau langganan. Data tersimpan di browser perangkat yang dipakai.
 
 ## Fitur
